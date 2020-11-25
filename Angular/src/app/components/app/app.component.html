@@ -1,0 +1,25 @@
+<form [formGroup]="form">
+  <div>
+    <label>
+      Email
+      <input type="email" formControlName="email">
+    </label>
+    <div id="erorr" *ngIf="form.controls.email.invalid">Email is NULL</div>
+  </div>
+  <hr>
+  <div>
+    <label>
+      Password
+      <input type="text" formControlName="password">
+    </label>
+  </div>
+  <div>
+    <label>
+      Password
+      <input type="text" formControlName="confirmPassword">
+    </label>
+  </div>
+  <div id="erorr" *ngIf="form.hasError('passwordError') && form.controls.confirmPassword.touched">Password not match</div>
+  <button (click)="save(form)" [disabled]  >SAVE</button>
+<!--  [disabled]="form.invalid || form.hasError('passwordError')"-->
+</form>

@@ -1,0 +1,51 @@
+html{
+    background: url(image/p16762657_v_h10_ad.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+}
+body{
+}
+#h1{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 25px;
+    display: block;
+    font-family: "Segoe Print", serif;
+    background-color: rgba(252, 0, 0, 0.47);
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+.aa{
+    color: whitesmoke;
+    float: left;
+    padding: 50px;
+
+}
+.a{
+    color: #eae6e6;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.42);
+    padding: 50px;
+    font-family: "Segoe Print", serif;
+}
+.b{
+    font-family: "Segoe Print", serif;
+    background: rgba(0, 0, 0, 0.42);
+    clear: both;
+    text-align: center;
+    color: #eae6e6;
+    padding: 50px;
+}
+#ull{
+    color: white;
+    margin: auto;
+    clear: both;
+    list-style: none;
+    padding-left: 0;
+}
+ul{
+    list-style: none;
+    display: inline-block;
+    font-size: 16px;
+}

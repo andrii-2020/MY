@@ -1,0 +1,43 @@
+<h1>Posts!!!</h1>
+<div class="card" >
+<hr>
+<h4>
+  id:
+  {{post.id}}
+  <br>
+  userId:
+  {{post.userId}}
+  <br>
+  body:
+  {{post.body}}
+  <br>
+  title:
+  {{post.title}}
+  <br>
+</h4>
+<button (click)="www(post)">Info-post</button>
+  <hr>
+</div>
+  <div *ngFor="let c of comments" id="flexBox">
+
+    <h2 *ngIf="visible" class="card">
+     <span>Comment!!!</span>
+      <br>
+      postId:
+      {{c.postId}}
+      <br>
+      id:
+      {{c.id}}
+      <br>
+      mame:
+      {{c.name}}
+      <br>
+      email:
+      {{c.email}}
+      <br>
+      body:
+      {{c.body}}
+    </h2>
+  </div>
+
+

@@ -1,0 +1,22 @@
+
+.active{
+  color: red;
+}
+
+.mActive{
+  color: rgba(47, 255, 0, 0.82);
+}
+.posts{
+ width: 70%;
+  margin: 1rem;
+}
+hr{
+  background: green;
+}
+.but{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+
+}

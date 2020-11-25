@@ -1,0 +1,17 @@
+span{
+  font-size: 23px;
+  color: blue;
+}
+#flexBox{
+  display: flex;
+  justify-content: center;
+}
+.card{
+border-radius: 18px;
+  margin-top: 25px;
+  border: 1px solid silver;
+  text-align: center;
+  height: auto;
+  width: 80%;
+  padding: 1rem 0.5rem;
+}

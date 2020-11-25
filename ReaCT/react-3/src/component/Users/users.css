@@ -1,0 +1,30 @@
+
+form{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 16px;
+}
+select{
+    text-align: center;
+    border-radius: 12px;
+}
+h5 {
+
+    margin-right: 7px;
+    text-shadow: 1px 1px red  ;
+}
+option{
+
+    width: 100px;
+}
+table{
+    margin-top: 1rem;
+}
+hr{
+    background: darkblue;
+}
+.search{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}

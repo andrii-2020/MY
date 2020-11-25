@@ -1,0 +1,45 @@
+<div class="Box">
+<h1>USER</h1>
+<form #form="ngForm" (ngSubmit)="search(form)">
+  <select multiple name="id" class="form-control" [(ngModel)]="user.id" style="width: 50%" >
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+  </select>
+  <button class="btn btn-info disabled">search</button>
+</form>
+<br>
+<form #forms="ngForm" (ngSubmit)="searchPost(forms)"  >
+  <div *ngIf="form.touched">
+    <div class="card border-info mb-3" style="max-width: 30rem; text-align: center">
+      <div class="card-header">{{user.id}}</div>
+      <div class="card-body">
+        <h4 class="card-title">name: {{user.name}}</h4>
+        <h4 class="card-text">email: {{user.email}}</h4>
+      </div>
+    </div>
+    <br>
+  <select name="id" multiple class="form-control" [(ngModel)]="post.id" style="width: 50%">
+    <option value="{{form.controls.id.value}}">{{form.controls.id.value}}</option>
+  </select>
+    <br>
+  <button class="btn btn-info disabled">Post</button>
+  </div>
+</form>
+<div class="card border-success mb-3"
+     style="max-width: 30rem; margin-top: 10px; text-align: center" *ngIf="forms.touched" >
+  <h1>USER--POST</h1>
+  <div class="card-header">id: {{post.id}}</div>
+  <div class="card-body">
+    <div class="card-title"><h4>title:</h4> <p>{{post.title}}</p></div>
+    <div class="card-text"><h4>body:</h4> <p>{{post.body}}</p></div>
+  </div>
+</div>
+</div>

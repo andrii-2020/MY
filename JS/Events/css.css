@@ -1,0 +1,84 @@
+.carousel {
+    position: relative;
+    width: 398px;
+    padding: 10px 40px;
+  }
+  
+  .carousel img {
+    width: 130px;
+    height: 130px;
+    display: block;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 60px;
+    padding: 0;
+    background: rgb(0, 252, 126);
+    border-radius: 20px;
+    font-size: 24px;
+    line-height: 24px;
+    color: red;
+    display: block;
+  }
+  
+  .arrow:hover {
+    background: rgb(0, 255, 21);
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 5px;
+  }
+  
+  .next {
+    right: 5px;
+  }
+  
+  .gallery {
+    width: 390px;
+    overflow: hidden;
+  }
+  
+  .gallery ul {
+    height: 130px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: margin-left 250ms;
+    font-size: 0;
+  }
+  
+  .gallery li {
+    display: inline-block;
+  }
+  
+  #text{
+      width: 100px;
+      height: 100px;
+      background-color: aqua;
+    
+  }
+  
+  
+  #bta{
+      width: 80px;
+      height: 20px;
+      background-color: blue;
+      text-align: center;
+  }
+  #div{
+      text-align: center;
+      height: 200px;
+      background-color: silver;
+      text-align: center;
+      display: none;
+  }
+  
+  
+
+  table td {
+      padding: 10px;;
+      border: 1px solid black;
+  }
+ 

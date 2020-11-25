@@ -1,0 +1,41 @@
+<form [formGroup]="form" (ngSubmit)="send(form)" class="form">
+  <label>ID
+    <br>
+    <select [formControl]="id">
+      <option *ngFor="let u of users" [value]="u.id">{{u.name}}</option>
+    </select>
+  </label>
+  <br>
+  <button style="margin-top: 10px;">Info-User</button>
+  <br>
+</form>
+
+<div class="box">
+  <h3>INFO_USER</h3>
+  <span>
+    EMAIL--
+    {{user.email}}
+    <br>
+    ID--
+    {{user.id}}
+    <br>
+    PHONE--
+    {{user.phone}}
+    <br>
+    WEBSITE--
+    {{user.website}}
+  </span>
+  <hr>
+</div>
+
+<button (click)="post(form)">User-Post</button>
+<div class="post">
+  <h3>INFO_USER-Post</h3>
+  ID--
+  {{posts.id}}
+  <br>
+  TITLE--
+  <span>{{posts.title}}</span>
+  <br>
+  <span class="pbody">BODY--{{posts.body}}</span>
+</div>

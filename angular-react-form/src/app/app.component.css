@@ -1,0 +1,23 @@
+
+.form{
+  border: 1px solid black;
+  width: 200px;
+  height: 100px; padding: 1.5rem;
+  border-radius: 30px;
+}
+.box{
+  font-size: 18px;
+  color: darkblue;
+  padding: 1.5rem;
+}
+button{
+  margin-left: 20px;
+}
+.post{
+  font-size: 20px;
+  color: #00b5b5;
+  padding: 1.5rem;
+}
+.pbody{
+  width: 400px;
+}

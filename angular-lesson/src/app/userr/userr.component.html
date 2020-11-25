@@ -1,0 +1,12 @@
+
+   <div>
+     <h3> {{uses?.id}}<br> name-{{uses?.name}}<br><br>email-{{uses?.email}}</h3>
+   </div>
+    <div>
+      <button [routerLink]="['metoth', uses.id]" [state]="{xxx: uses}"  >details--metoth1</button>
+      <button [routerLink]="['metod']" [state]="{xxx: uses}">details--metod--2</button>
+      <button (click)="shoUser(uses)">details--metoth-click</button>
+    </div>
+    <hr>
+
+

@@ -1,0 +1,54 @@
+
+#s{
+margin-top: 23px;
+}
+
+
+select{
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 100px;
+}
+option:hover{
+    background: #a09898;
+}
+
+.xxx{
+    color: red;
+
+}
+.ml{
+
+    border-top: 1px solid red;
+    border-left: 1px solid blue;
+    border-right: 1px solid #00ff37;
+    border-top-right-radius: 50px;
+    margin: 0 0 0 16px ;
+    padding: 1.5rem;
+    width: 250px;
+}
+.post {
+
+    border-bottom: 1px solid red;
+    border-left: 1px solid blue;
+    border-right: 1px solid #00ff37;
+    border-bottom-left-radius: 20px;
+    margin: 0 0 0 16px;
+    padding: 1.5rem;
+    width: 250px;
+}
+#m{
+    margin: 1rem;
+}
+.flex{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+form{
+    background: #dcfcdc;
+    padding: 16px;
+    border: 1px solid #3b513f;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 1px ;
+}
