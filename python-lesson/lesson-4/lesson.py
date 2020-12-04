@@ -38,7 +38,8 @@ a1 = Cinderella('nastia', 25)
 a2 = Cinderella('katia', 28)
 a3 = Cinderella('banana', 33)
 a4 = Cinderella('oksana', 32)
-inp = int(input('Тут вже є попелюшкі вибири-> 25, 28, 33, 32:\n'))
+
+inp = int(input('Вибери розмір туфелькі-> 25, 28, 33, 32:\n'))
 
 p = Prince('vasia', 30, inp)
 
